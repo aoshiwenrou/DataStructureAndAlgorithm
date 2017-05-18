@@ -44,7 +44,9 @@ public class Case1_6 extends BaseCase {
     }
 
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
         Case1_6 case1_6 = new Case1_6();
-        case1_6.permute("abc");
+        case1_6.permute("abcdefghij");
+        System.out.println("" + (System.currentTimeMillis()-start));
     }
 }
